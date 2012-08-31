@@ -9,6 +9,7 @@ body { background: #ddd; margin: 0 auto; max-width: 1024px; font: normal 14px/1.
 h1 { border-bottom: 1px solid #333; font-size: 32px; color: #fff; padding-bottom: 12px; text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6); }
 
 h2 { margin: 10px 0; color: #000; font-size: 18px; text-shadow: 1px 1px 2px white; }
+h2 + div { background: #fff; overflow: hidden; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; margin-bottom: 20px; }
 
 h3 { margin: 0; background-color: #e40a55; background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(14%, #e40a55), color-stop(57%, #ff246f)); background: -webkit-linear-gradient(bottom, #e40a55 14%, #ff246f 57%); background: -moz-linear-gradient(bottom, #e40a55 14%, #ff246f 57%); background: -o-linear-gradient(bottom, #e40a55 14%, #ff246f 57%); background: -ms-linear-gradient(bottom, #e40a55 14%, #ff246f 57%); background: linear-gradient(bottom, #e40a55 14%, #ff246f 57%); }
 h3 a { background: url("sprite.png") 15px 13px no-repeat; display: block; padding: 10px; padding-left: 32px; margin: 0; color: #fff; text-decoration: none; font-weight: normal; border-bottom: 1px solid rgba(128, 10, 85, 0.5); text-shadow: 1px 1px 1px #800a55; }
@@ -17,7 +18,7 @@ h3.open { background: #ff4678; }
 h3.open a { background-position: 13px -25px; }
 h3 + div { padding: 10px; }
 
-h2 + div, .example { background: #fff; overflow: hidden; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; margin-bottom: 20px; }
+.example { background: #fff; overflow: hidden; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; margin-bottom: 20px; }
 
 /* Pre hide sections with JavaScript on
 --- */

@@ -1,4 +1,5 @@
 # jQuery Collapse
+### SCSS flavor
 
 A lightweight and flexible jQuery plugin that allows you to collapse content. A feature also
 known as 'progressive disclosure'.
@@ -28,7 +29,7 @@ this repository.
 Load jQuery and the jQuery Collapse plugin into your document:
 
 ```html
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 <script src="jquery.collapse.js"></script>
 ```
 

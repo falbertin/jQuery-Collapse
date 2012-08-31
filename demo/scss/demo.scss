@@ -41,6 +41,12 @@ h2 {
 	color: #000;
 	font-size: 18px;
 	@include text-shadow(1px 1px 2px #fff);
+	+ div {
+		background: #fff;
+		overflow: hidden;
+		@include border-radius(3px);
+		margin-bottom: 20px;
+	}
 }
 
 h3 {
@@ -67,7 +73,6 @@ h3 {
 	+ div { padding: 10px; }
 }
 
-h2 + div,
 .example {
 	background: #fff;
 	overflow: hidden;
