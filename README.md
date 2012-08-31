@@ -1,5 +1,4 @@
-# jQuery Collapse
-### SCSS flavor
+# jQuery Collapse (SASS-ified)
 
 A lightweight and flexible jQuery plugin that allows you to collapse content. A feature also
 known as 'progressive disclosure'.
