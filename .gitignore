@@ -7,3 +7,6 @@ Guardfile
 Gemfile
 spec/*_spec.js
 TODO
+*.orig
+*.sass-cache*
+*.diff
